@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script defer type="module" src="./script.js"></script>
+
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="stylesheet" href="index.css">
+    <title>Portfolio</title>
+</head>
+
+<body>
+
+    <div class="navigation">
+        <input type="checkbox" id="menu" class="navigation-input" />
+        <label for="menu" class="menu-btn">
+            <span class="navigation-btn"></span>
+        </label>
+        <div class="navigation-menu">
+            <nav class="navigation-list">
+                <ul>
+                    <li><a class="navigation-links" data-text="Home" href="#home">Home</a></li>
+                    <li><a class="navigation-links" data-text="About" href="#about">About</a></li>
+                    <li><a class="navigation-links" data-text="Projects" href="#project">Projects</a></li>
+                    <li><a class="navigation-links" data-text="Contact" href="#contact">Contact</a></li>
+                    <li><a class="navigation-links" data-text="Resume" href="#">Resume</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!-- <nav class="nav">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Projects</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav> -->
+    <main>
+        <section class="section-home" id="home">
+
+            <h1>Hello, I am <span class="typedElement"></span></h1>
+            <h1>Welcome to my Portfolio</h1>
+            <div>
+                <a href="#contact" class="link-btn">
+                    Contact Me
+                </a>
+                <a href="#project" class="link-btn">
+
+                    My Projects
+                </a>
+            </div>
+        </section>
+        <section class="section-skills" id="about">
+
+            <div class="skills-about">
+                <!-- <img src="assets/blob.svg" alt="blob" class="blob" /> -->
+
+                <h2>About Me</h2>
+                <p>
+                    Hi, My name is Subrashi Kirti Dalui and I am from New Delhi , India . I love learning new stuffs
+                    related
+                    to programming and building new stuffs. I have knowledge of frontend
+                    frameworks like react
+                    and its related libraries like Redux, React-Router and basic Web development knowledge . I also have
+                    some knowledge of Node js and Express.
+                </p>
+            </div>
+
+            <h2 class="section-skills-heading">My Skills </h2>
+            <div class="skills-container">
+                <div class="skill">
+                    <img src="/assets/icons8-react.svg" alt="React">
+                    <h5 class="skills-title">React.js</h5>
+                </div>
+
+                <div class="skill">
+                    <img src="/assets/icons8-redux.svg" alt="Redux">
+                    <h5 class="skills-title">Redux</h5>
+                </div>
+
+                <div class="skill">
+                    <img src="/assets/icons8-nodejs.svg" alt="Node">
+                    <h5 class="skills-title">Node</h5>
+                </div>
+
+                <div class="skill">
+                    <img src="/assets/icons8-javascript.svg" alt="Javascript">
+                    <h5 class="skills-title">JavaScript</h5>
+                </div>
+
+                <div class="skill">
+                    <img src="/assets/icons8-html-5.svg" alt="HTML">
+                    <h5 class="skills-title">HTML</h5>
+                </div>
+
+                <div class="skill">
+                    <img src="/assets/icons8-css3.svg" alt="CSS">
+                    <h5 class="skills-title">CSS</h5>
+                </div>
+            </div>
+            <!-- <div style="text-align: center; margin-top: 10px;">
+                <a href="#" class="link-btn link-btn-alternate">My Resume</a>
+            </div> -->
+        </section>
+        <section id="project" class="section-education section">
+            <h2 class="section-skills-heading project-section-heading">Projects</h2>
+            <div class="projects-container">
+                <h2 class="projects-heading">React Projects</h2>
+                <div class="project">
+                    <a href="https://crypto-app-coin-ranking-api.netlify.app/" target="_blank" rel="noreferrer"
+                        class="project-img-container">
+                        <img src="/assets/crypto-app-img.png" class="project-img" alt="Crypto-app-site">
+                    </a>
+                    <div class="project-text-content">
+                        <h3 class="project-text-heading">Cryptocurrency inforamtion app</h3>
+                        <p class="project-text-para">This is a Cryptocurrency inforamtion app made using React.js. It
+                            uses the coin ranking api to
+                            get the data about the currencies, It also shows the inforamtion about each crypto in its
+                            dedicated page where you can get the price history in a chart.
+                        </p>
+                        <!-- <h4 class="project-skills-heading">Technologies Used</h4> -->
+                        <!-- <div class="project-skills">
+                            <p class="project-skills-item">React.js</p>
+                            <p class="project-skills-item">React Router</p>
+                            <p class="project-skills-item">Redux</p>
+                            <p class="project-skills-item">Chart.js</p>
+                            <p class="project-skills-item">CSS</p>
+                        </div> -->
+                        <div class="actions-project flex">
+                            <a href="https://github.com/Subrashi316/CoinRanking-Crypto-React-app" target="_blank"
+                                rel="noreferrer" class="link-btn">Github</a>
+                            <a href="https://crypto-app-coin-ranking-api.netlify.app/" target="_blank" rel="noreferrer"
+                                class="link-btn">Project</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-text-content">
+                        <h3 class="project-text-heading">Recipe Ingredients site</h3>
+                        <p class="project-text-para">This is a Recipe Ingredients Site which uses the Forkify API to get
+                            data about foods and there ingredients,You can search recipes in this app and find the
+                            ingredients and also the a link to see how to cook the item is also there
+                        </p>
+                        <!-- <h4 class="project-skills-heading">Technologies Used</h4> -->
+                        <!-- <div class="project-skills">
+                            <p class="project-skills-item">React.js</p>
+                            <p class="project-skills-item">React Router</p>
+                            <p class="project-skills-item">Redux</p>
+                            <p class="project-skills-item">CSS</p>
+                        </div> -->
+                        <div class="actions-project flex">
+                            <a href="https://github.com/Subrashi316/React-Recipe-App" target="_blank" rel="noreferrer"
+                                class="link-btn">Github</a>
+                            <a href="https://recipe-forkify-api-app.netlify.app/" target="_blank" rel="noreferrer"
+                                class="link-btn">Project</a>
+                        </div>
+                    </div>
+                    <a href="https://recipe-forkify-api-app.netlify.app/" target="_blank" rel="noreferrer"
+                        class="project-img-container">
+                        <img src="/assets/recipe-app-img-2.png" class="project-img" alt="recipe-app-site">
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="https://react-expense-tracker-subrashi.netlify.app/" target="_blank" rel="noreferrer"
+                        class="project-img-container">
+                        <img src="/assets/expense-tracker-img.png" class="project-img" alt="Crypto-app-site">
+                    </a>
+                    <div class="project-text-content">
+                        <h3 class="project-text-heading">Expense Tracker app</h3>
+                        <p class="project-text-para">
+                            This is an Expense Tracker app to track the daily expenses in list manner. It stores the
+                            data in browser using the IndexedDB. You can also see your spending graph in chart form in
+                            statistics tab.
+                        </p>
+                        <!-- <h4 class="project-skills-heading">Technologies Used</h4>
+                        <div class="project-skills">
+                            <p class="project-skills-item">React.js</p>
+                            <p class="project-skills-item">React Router</p>
+                            <p class="project-skills-item">Redux</p>
+                            <p class="project-skills-item">Chart.js</p>
+                            <p class="project-skills-item">CSS</p>
+                        </div> -->
+                        <div class="actions-project flex">
+                            <a href="https://github.com/Subrashi316/React-Expense-Tracker" target="_blank"
+                                rel="noreferrer" class="link-btn">Github</a>
+                            <a href="https://react-expense-tracker-subrashi.netlify.app/" target="_blank"
+                                rel="noreferrer" class="link-btn">Project</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <section id="contact" class="section section-contact">
+
+            <form action="" class="contact-me-form">
+                <h3 class="form-heading">Contact Me</h3>
+                <div class="input-wrapper">
+                    <input type="text" class="input-text" required placeholder="Name">
+                    <span></span>
+                </div>
+                <div class="input-wrapper">
+                    <input type="email" class="input-text" required placeholder="Email">
+                    <span></span>
+                </div>
+                <div class="input-wrapper">
+                    <input type="text" class="input-text" required placeholder="Subject">
+                    <span></span>
+                </div>
+                <div class="input-wrapper">
+                    <textarea name="Message" placeholder="Message" class="input-text input-text-area"></textarea>
+                    <span></span>
+                </div>
+                <div class="actions">
+                    <button class="btn">Send</button>
+                </div>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
