@@ -27,6 +27,7 @@ html {
   display: grid;
   place-content: center;
   text-align: center;
+  position: relative;
 }
 
 .section-home h1 {
@@ -39,6 +40,23 @@ html {
   margin-bottom: 10px;
   font-size: 3rem;
   text-transform: uppercase;
+}
+
+
+.home-links{
+  /* position: absolute; */
+  /* top: 1rem; */
+  /* left: 1rem; */
+  display: flex;
+  /* padding: 1rem; */
+  gap: 1.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-img{
+  width: 30px;
+  height: 30px;
 }
 
 /* link button and hover effect */
@@ -595,3 +613,5 @@ align-content: center;
 .navigation-links:hover::before {
   width: 100%;
 }
+
+
